@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import UseEffect from "./UseEffect";
+
 import CleanUp from "./CleanUp";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseEffect />
     <CleanUp />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
